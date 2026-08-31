@@ -2,6 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/deadthrr/public_html/
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -f index.html $DEPLOYPATH/index.html
-    - /bin/cp -f portal.css $DEPLOYPATH/portal.css
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp portal.css $DEPLOYPATH
