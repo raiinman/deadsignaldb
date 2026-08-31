@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export ROOTPATH=$HOME/public_html/
+    - /bin/mkdir -p $ROOTPATH
+    - /bin/cp -f index.html $ROOTPATH/index.html
+    - /bin/cp -f portal.css $ROOTPATH/portal.css
+    - /bin/echo 'Dead Signal DB portal deployed' > $ROOTPATH/deadsignaldb-deploy-status.txt
