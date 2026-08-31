@@ -2,13 +2,13 @@
 
 ## Positioning
 
-Dead Signal DB is an independent development house creating software, games, tools, and experimental systems.
+Dead Signal DB is an independent creative practice for building useful things, exploring ideas, helping people, and making software, games, tools, and experimental systems.
 
-It is broad by design. It is not an agency, generic portfolio, game-only studio, or SaaS company.
+It is broad by design. It does not need to present itself as an agency, company, generic portfolio, game-only studio, or SaaS business.
 
 ## Promise
 
-Every project is a distinct signal with its own purpose, world, and identity. Dead Signal DB is the shared source where those signals are cataloged, developed, released, and remembered.
+Every project is a distinct signal with its own purpose, world, and identity. Dead Signal DB is the shared source where those signals are explored, cataloged, developed, released, and remembered.
 
 ## Personality
 

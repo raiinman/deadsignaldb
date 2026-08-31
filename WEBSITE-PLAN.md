@@ -2,7 +2,7 @@
 
 ## Goal
 
-Make `deadsignaldb.com` feel like a real parent brand and public operating archive, not a landing page wearing the visual language of Once Human.
+Make `deadsignaldb.com` feel like a real independent practice and public operating archive, not a landing page wearing the visual language of Once Human.
 
 ## Primary navigation
 

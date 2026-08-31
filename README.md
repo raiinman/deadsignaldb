@@ -1,6 +1,6 @@
 # Dead Signal DB
 
-Dead Signal DB is the parent identity and public home for independent software, games, tools, systems, and experiments.
+Dead Signal DB is an independent creative practice and public home for software, games, tools, systems, and experiments made to explore ideas and help people.
 
 The site is not a conventional portfolio and is not tied to one technology or medium. It is a living index of work: what is active, what has shipped, what is being explored, and what has been archived.
 
