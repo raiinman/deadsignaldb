@@ -150,3 +150,32 @@ For the next Dead Signal DB phase:
 - Escalate the orchestrator to GPT-5.6 Terra or GPT-5.6 Sol for the final brand architecture decision or any high-consequence technical design, if available.
 
 No external model should be consulted until the current planning documents have been reviewed and the question is written down precisely.
+
+## Platform working levels
+
+### Claude
+
+Claude provides two practical controls: model choice and Extended Thinking. Anthropic describes Opus as its most capable family and Sonnet as a high-performance balance of reasoning and efficiency. Use normal mode for straightforward writing, summaries, and small critiques. Use Extended Thinking for comprehensive planning, detailed document analysis, difficult technical problems, and multi-step reasoning. Enabling it starts a separate chat, so select it before beginning the task. [Anthropic: Using extended thinking](https://support.anthropic.com/en/articles/10574485-using-extended-thinking)
+
+Recommended routing: Haiku or normal Sonnet for quick variants and summaries; Sonnet with Extended Thinking for brand alternatives, architecture, and serious critique; Opus with Extended Thinking for final review of foundational or costly-to-reverse decisions. Exact availability depends on the user’s plan, so verify the selected model rather than assuming it exists.
+
+### Gemini
+
+Gemini provides model choice plus configurable thinking. Google documents `minimal`, `low`, `medium`, and `high` thinking levels for supported Gemini 3 models: low minimizes latency and cost, medium is general-purpose, and high maximizes reasoning depth. Gemini 2.5 uses numeric `thinkingBudget`; Google recommends `thinkingLevel` for Gemini 3. [Google: Gemini thinking](https://ai.google.dev/gemini-api/docs/generate-content/thinking)
+
+Recommended routing: Flash-Lite with minimal/low for quick visual inspection and repetitive analysis; Flash with medium for normal multimodal research and interaction exploration; Pro with high for difficult multimodal interpretation, complex research, or visual/technical decisions. In the consumer interface, use the closest available equivalent and explicitly select high thinking when available.
+
+## Capability versus effort
+
+Model tier and reasoning effort solve different problems. A stronger model can understand harder material; a higher effort setting asks that model to spend more time working through it. Use the smallest combination that covers the task. A screenshot-heavy review may need Gemini Pro with high thinking but not Claude. A nuanced naming decision may need Claude Sonnet with Extended Thinking plus a normal Gemini visual check. A routine CSS correction needs neither specialist nor maximum effort.
+
+When routing a task, state:
+
+```text
+Primary model:
+Working level:
+Specialist model:
+Specialist level:
+Why this level is justified:
+What would trigger escalation:
+```
